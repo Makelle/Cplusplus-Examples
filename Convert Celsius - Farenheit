@@ -1,0 +1,20 @@
+// function example
+#include <iostream>
+using namespace std;
+
+int addition (int c)
+{
+  int f;
+  f=c*1.8+32;
+  return f;
+}
+
+int main ()
+{
+  int z;
+  z = addition (100);
+  cout << "The result is " << z;
+  cout << "\n";
+  return 0;
+
+}
